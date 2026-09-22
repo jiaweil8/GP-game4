@@ -279,7 +279,7 @@ function init_maek() {
 	};
 
 	if (maek.OS === 'windows') {
-		DEFAULT_OPTIONS.CPP = ['cl.exe', '/nologo', '/EHsc', '/Z7', '/std:c++20', '/W4', '/WX', '/MD'];
+		DEFAULT_OPTIONS.CPP = ['cl.exe', '/nologo', '/EHsc', '/Z7', '/std:c++20', '/utf-8', '/W4', '/WX', '/MD'];
 		//TODO: could embed manifest to set UTF8 codepage
 		DEFAULT_OPTIONS.LINK = ['link.exe', '/nologo', '/SUBSYSTEM:CONSOLE', '/DEBUG:FASTLINK', '/INCREMENTAL:NO'];
 	} else if (maek.OS === 'linux') {
