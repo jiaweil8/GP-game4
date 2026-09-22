@@ -40,4 +40,7 @@ struct TextRenderer {
     glm::vec3 const &color,
     glm::uvec2 const &drawable_size
     );
+    
+    void destroy_text(TextTexture &text);
 };
+

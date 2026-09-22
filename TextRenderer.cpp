@@ -227,3 +227,13 @@ void TextRenderer::draw_text(TextTexture const &text, glm::vec2 const &position,
     glBindVertexArray(0);
     glUseProgram(0);
 }
+
+void TextRenderer::destroy_text(TextTexture &text) {
+    if (text.texture != 0) {
+        glDeleteTextures(1, &text.texture);
+        text.texture = 0;
+    }
+
+    text.width = 0;
+    text.height = 0;
+}
