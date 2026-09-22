@@ -16,7 +16,7 @@ How To Play:
 
 Use the Up and Down arrow keys to select a choice and press Enter to confirm it. Explore the terminal and try to leave. Not everything shown by the interface can be trusted.
 
-Sources: Roboto Light font from Google Fonts / Roboto.
+Sources: Roboto Light font from Google Fonts / Roboto.[text](https://fonts.google.com/specimen/Roboto)
 
 This game was built with [NEST](NEST.md).
 
